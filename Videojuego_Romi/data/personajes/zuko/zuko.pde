@@ -1,0 +1,62 @@
+void setup(){
+  size(400,300);
+}
+
+void draw(){
+ background(255);
+ pushMatrix();
+ translate(150,20);
+ smooth();
+ noStroke();
+ fill(#FCE5B5);//cabeza
+ rect(10,0,100,100);
+  //cicatriz
+ fill(#F2ABAB);
+ rect(30,30,50,10);
+ rect(30,40,50,30);
+ rect(20,50,50,10);
+ rect(30,60,50,10);
+ rect(30,70,50,10);
+ rect(40,80,30,10);
+ fill(#212120);//cabello
+ rect(0,-10,10,10);
+ rect(10,0,100,30);
+ rect(0,10,20,80);
+ rect(20,10,40,30);
+ rect(20,30,20,20);
+ fill(#676767);//ojos
+ rect(50,40,15,40);
+ rect(95,40,15,40);
+ fill(#212120);//torso
+ rect(25,100,75,80);
+ fill(#A71919);//piernas
+ rect(25,175,75,20);
+ rect(25,195,20,20);
+ rect(80,195,20,20);
+ fill(#212120);//tunica
+ rect(45,175,40,40);
+ fill(#212120);//pies
+ rect(25,210,20,20);
+ rect(80,210,20,20);
+  //trenzas 
+ fill(#212120);
+rect(40,40,10,30);
+rect(80,20,20,45);
+rect(100,0,20,55);
+rect(65,20,10,50);
+ fill(#FCE561);//cinturon
+ rect(25,140,75,15);
+ rect(55,155,7,60);
+ rect(75,155,7,60);
+ rect(70,100,10,50);
+ rect(25,100,75,10);
+  fill(#A71919);//brazos
+ rect(25,100,20,20);
+ rect(5,120,20,20);
+ rect(100,120,20,20);
+ fill(#FCE5B5);//manos
+ rect(0,140,30,30);
+ rect(100,140,30,30);
+ popMatrix();
+
+}
